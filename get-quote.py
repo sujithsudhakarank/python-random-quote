@@ -5,7 +5,7 @@ def hello():
   quotes = f.readlines()
   f.close()
 
-  print(quotes)
+  print(quotes([1]))
 
 if __name__== "__hello__":
   hello()
